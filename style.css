@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #f4f7fa; /* Light, professional background */
+  color: #333; /* Dark gray text for better readability */
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+header {
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Modern gradient for header */
+  color: white;
+  padding: 50px 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+  transition: transform 0.4s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+section {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #2575fc; /* Consistent header color for professional look */
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.skill-card {
+  background: #fdfdfd;
+  color: #2c3e50;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #4b72c2;
+  padding: 14px 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.skill-card:hover {
+  transform: translateY(-3px);
+  background-color: #eaf1fb;
+  border-left-color: #2959a8;
+}
+
+
+
+a {
+  color: #2575fc; /* Professional blue for links */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.education ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.education li {
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #2575fc; /* Blue accent for education list */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  font-size: 1rem;
+}
